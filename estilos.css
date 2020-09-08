@@ -1,0 +1,137 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+div#LogoTec{
+	margin-top: 30px;
+	display: block;
+	/*position: center;*/
+	margin:auto;
+	width: 150px;
+	height: 150px;
+	background-image: url(icono/logotec.jpg);
+	background-size: 100% 100%;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+div.Bienvenido {
+position: center;
+margin: auto;
+margin-left: 510px;
+margin-bottom: 50px;
+}
+
+
+header.Linea1{
+display: block;
+margin: auto ;
+position: center;
+height: 250px;
+width: 1000px;
+background-color: #FA5858;
+}
+
+div.Contenedor{
+	position: center;
+	width: 250px;
+	height: 250px;
+	float:left;
+	-webkit-transition: height .4s;
+
+}
+
+div#uno{
+	background-color: #FA5858;
+	-webkit-transition: height .4s;
+}
+
+div#dos{
+	background-color: #819FF7;
+	-webkit-transition: height .4s;
+}
+div#tres{
+	background-color: #CC2EFA;
+	-webkit-transition: height .4s;
+}
+div#cuatro{
+	background-color: #01DFD7;
+	-webkit-transition: height .4s;	
+}
+
+img.icono{
+	display: block;
+	margin:20px auto;
+	background-color: rgba(255,255,255,.15);
+	width:100px;
+	height: 100px;
+	padding:15px;
+	-webkit-border-radius: 70%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+	opacity: .5;
+}
+
+p#LAB{
+font-size: 1.0em;
+	color:white;
+	text-align: center;
+	padding-top:35px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+p.Laboratorista{
+font-size: 1.0em;
+	color:white;
+	padding-top: 10px;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;	
+}
+
+p.Letra{
+	font-size: 2.2em;
+	color:white;
+	text-align: center;
+/*	padding-top:1px; */
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+
+
+div.Contenedor:hover{
+	height:350px;
+}
+
+div.Contenedor:hover p.Letra{
+	opacity: 1;
+}
+
+
+div.Contenedor:hover img.icono{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.9);
+	opacity: 1;
+}
+
+
+/*
+div#info{
+	position: center ;
+	margin:auto;
+	overflow: hidden;
+	width: 320px;
+	height: 70px;
+	background-color: rgb(31,31,31,0.9);
+	-moz-transition:opacity 0.2s;
+	opacity: 0;
+}
+*/
+/*div#imagen:hover div#info{
+	opacity: 1;
+}
+*//*/////////////////////////////////////////////////////////////////////////////*/
+
+

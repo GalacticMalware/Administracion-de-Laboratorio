@@ -1,0 +1,206 @@
+header{
+  width: 100%;
+  background: #01DFD7;
+  color: #fff;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.centro{
+ margin: auto;
+ display: block;
+}
+
+.navegacion{
+  width: 999px;
+  margin: auto;
+  background: #fff;
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.menu > li{
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  color: #FF7F50;
+  transition: all .3s;
+}
+/*submenu*/
+
+.submenu1{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu1{
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu2{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s
+}
+
+.submenu2 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu2{
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu3{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s
+}
+
+.submenu3 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu3{
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu4{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s
+}
+
+.submenu4 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu4{
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu5{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s
+}
+
+.submenu5 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu5{
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu6{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s
+}
+
+.submenu6 li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li:hover .submenu6{
+  visibility: visible;
+  opacity: 1;
+}
+
+.Tabla{
+  /*position:center;*/
+  margin: auto;
+  border-collapse:collapse;
+  border:1px solid #CCC;
+}
+
+/* Espacio de relleno en celdas y cabeceras 
+.tabla td, th {
+  padding:10px;
+}
+
+ Modificación de estilos en celdas 
+.tabla td {
+  text-align:center;
+  border-bottom:2px solid #111;
+  color:#333;
+  font-size:18px;
+}
+*/
+.tabla th {     font-size: 13px;     font-weight: normal;     padding: 8px;     background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    border-bottom: 1px solid #fff; color: #039; }
+
+.tabla td {    padding: 8px;     background: #e8edff;     border-bottom: 1px solid #fff;
+    color: #669;    border-top: 1px solid transparent; }
+
+.tabla tr:hover td { background: #d0dafd; color: #339; }
